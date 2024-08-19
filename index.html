@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Learning</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">LearnOnline</div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Courses</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><button class="btn-login">Login</button></li>
+                <li><button class="btn-signup">Sign Up</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Welcome to LearnOnline</h1>
+            <p>Your journey to knowledge starts here</p>
+            <button class="btn-get-started">Get Started</button>
+        </section>
+        
+        <section class="courses">
+            <h2>Our Courses</h2>
+            <div class="course-container">
+                <div class="course-card">
+                    <img src="data:image/jpeg;base64,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" alt="Machine Learning Course">
+                    <h3>Machine Learning</h3>
+                    <p>Price: $99</p>
+                </div>
+                <div class="course-card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJjuAWWU7BpNu_QVmYTCZZAZcCXIb81L317g&s" alt="Python Course">
+                    <h3>Python Programming</h3>
+                    <p>Price: $79</p>
+                </div>
+                <div class="course-card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmVFw6ArN_LUC4pjmROfcGAkJoHZRDf9bxsw&s" alt="Web Development Course">
+                    <h3>Web Development</h3>
+                    <p>Price: $89</p>
+                </div>
+                <div class="course-card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvnPThO819DlLucImzTihPw1Bt28Yi-h8qbA&s" alt="Data Science Course">
+                    <h3>Data Science</h3>
+                    <p>Price: $109</p>
+                </div>
+                <div class="course-card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKUY3l1m4WPXUZjO2wZm_xgew5UJ-7BOFPcgCEaTvAGB88FM_7fuqQG-NlkDQK3rjpjaQ&usqp=CAU" alt="AI Course">
+                    <h3>Artificial Intelligence</h3>
+                    <p>Price: $129</p>
+                </div>
+                <div class="course-card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSi36fRIMFvAdasAOUWARUiae4B4FIgmBKIg&s" alt="Cloud Computing Course">
+                    <h3>Cloud Computing</h3>
+                    <p>Price: $99</p>
+                </div>
+                <div class="course-card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsnSh3MaNbIHEduN9JbGdJKLFzdeKjwtAibQ&s" alt="Cyber Security Course">
+                    <h3>Cyber Security</h3>
+                    <p>Price: $119</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 LearnOnline. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
